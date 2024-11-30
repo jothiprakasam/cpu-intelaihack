@@ -145,6 +145,6 @@ if __name__ == "__main__":
     optimization_tip = suggest_optimizations(predictions)
     print(optimization_tip)
 
-    # Optionally, you can integrate this tip into the HTML report:
+    
     cpu_info['Optimization Tip'] = optimization_tip
     generate_html_report(cpu_info, cpu_temp, cpu_freq, cpu_cycles)
